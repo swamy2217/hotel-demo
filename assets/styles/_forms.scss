@@ -1,0 +1,9 @@
+.form-input-border {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    outline: none;
+}
+.form-input-border.is-invalid{
+    border-color: #f86c6b;
+}
