@@ -286,11 +286,11 @@ MIT
 
 ngx-bootstrap/utils
 
-ngx-bootstrap/dropdown
-
 ngx-bootstrap/component-loader
 
 ngx-bootstrap/positioning
+
+ngx-bootstrap/dropdown
 
 @coreui/angular
 MIT
@@ -368,6 +368,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+ngx-bootstrap/modal
+
 ngx-bootstrap/accordion
 
 ngx-bootstrap/collapse
@@ -375,6 +377,9 @@ ngx-bootstrap/collapse
 ngx-bootstrap/tabs
 
 @angular/core
+MIT
+
+@angular/forms
 MIT
 
 core-js
@@ -440,8 +445,5 @@ THE SOFTWARE.
 
 
 ngx-bootstrap/carousel
-
-@angular/forms
-MIT
 
 ngx-bootstrap/buttons

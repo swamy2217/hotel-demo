@@ -90,6 +90,7 @@ html[dir="rtl"] {
       z-index: $zindex-sticky - 1;
       width: $sidebar-width;
       height: 100vh;
+      display: none;
     }
   }
   .sidebar-fixed {
