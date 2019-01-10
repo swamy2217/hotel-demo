@@ -50,7 +50,7 @@ $sidebar-minimized-height:            $sidebar-minimized-width !default;
 $sidebar-compact-width:               150px !default;
 $sidebar-compact-height:              $sidebar-compact-width !default;
 $sidebar-color:                       #96a8b4 !default;
-$sidebar-bg:                          #2b304d !default;
+$sidebar-bg:                          #58595b !default;
 $sidebar-borders:                     none !default;
 $mobile-sidebar-width:                220px !default;
 
@@ -81,14 +81,14 @@ $sidebar-nav-link-bg:                 transparent !default;
 $sidebar-nav-link-icon-color:         #98a8b4 !default;
 $sidebar-nav-link-borders:            0 !default;
 
-$sidebar-nav-link-hover-color:        #e9c442 !default;
-$sidebar-nav-link-hover-bg:           theme-color("dark") !default;
-$sidebar-nav-link-hover-icon-color:   #e9c442 !default;
+$sidebar-nav-link-hover-color:        #ffffff !default;
+$sidebar-nav-link-hover-bg:           #6d6e71 !default; //theme-color("dark") !default;
+$sidebar-nav-link-hover-icon-color:   #ffffff !default;
 $sidebar-nav-link-hover-borders:      0 !default;
 
-$sidebar-nav-link-active-color:       #e9c442 !default;
-$sidebar-nav-link-active-bg:          lighten($sidebar-bg, 5%) !default;
-$sidebar-nav-link-active-icon-color:  #e9c442 !default;
+$sidebar-nav-link-active-color:       #ffffff !default;
+$sidebar-nav-link-active-bg:          #6d6e71 !default; //lighten($sidebar-bg, 5%) !default;
+$sidebar-nav-link-active-icon-color:  #ffffff !default;
 $sidebar-nav-link-active-borders:     0 !default;
 
 $sidebar-nav-link-disabled-color:       darken(#e9c442, 30%) !default;
@@ -205,3 +205,8 @@ $switch-handle-margin:                2px !default;
 
 // Cursor
 $cursor-disabled: default !default;
+
+$desk-breakpoints: (
+  lg: 992px,
+  xl: 1200px
+) !default;

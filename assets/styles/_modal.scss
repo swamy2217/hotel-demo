@@ -13,11 +13,14 @@
 }
 
 .modal {
-  .modal-content {
-    border-radius: 1.0rem;
+  .modal-footer{
+    justify-content: center;
   }
-  .modal-header{
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
+  // .modal-content {
+  //   border-radius: 1.0rem;
+  // }
+  // .modal-header{
+  //   border-top-left-radius: 1rem;
+  //   border-top-right-radius: 1rem;
+  // }
 }
