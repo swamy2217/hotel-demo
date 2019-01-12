@@ -50,7 +50,8 @@ app-root {
 
 html:not([dir="rtl"]) {
   .sidebar {
-    margin-left: - $sidebar-width;
+    //margin-left: - $sidebar-width;
+    display: none;
   }
   .aside-menu {
     right: 0;
@@ -90,7 +91,6 @@ html[dir="rtl"] {
       z-index: $zindex-sticky - 1;
       width: $sidebar-width;
       height: 100vh;
-      display: none;
     }
   }
   .sidebar-fixed {
@@ -242,7 +242,10 @@ html[dir="rtl"] {
       .sidebar#{$infix}-show,
       .sidebar-show {
         .sidebar {
-          margin-left: 0;
+          //margin-left: 0;
+          display: block;
+          -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
         }
         @if $breakpoint != "xs" {
           &.sidebar-fixed {
