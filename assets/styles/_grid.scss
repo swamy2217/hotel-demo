@@ -26,7 +26,7 @@
     padding: 0px 15px;
   }
 }
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
   @if $enable-grid-classes {
     .app,.app-header {
       @include app-container();
