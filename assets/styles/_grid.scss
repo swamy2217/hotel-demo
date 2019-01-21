@@ -26,11 +26,11 @@
     padding: 0px 15px;
   }
 }
-@include media-breakpoint-up(xl) {
+@include media-breakpoint-up(xxl) {
   @if $enable-grid-classes {
-    .app,.app-header {
-      @include app-container();
-      @include make-container-max-widths();
-    }
+    // .app,.app-header {
+    //   @include app-container();
+    //   @include make-container-max-widths();
+    // }
   }
 }
