@@ -74,13 +74,13 @@ html[dir="rtl"] {
   //
   .header-fixed {
     .app-header {
-      position: fixed;
+      //position: fixed;
       z-index: $zindex-sticky;
       width: 100%;
     }
-    .app-body {
-      margin-top: $navbar-height;
-    }
+    // .app-body {
+    //   margin-top: $navbar-height;
+    // }
   }
   //
   // Sidebar
@@ -465,15 +465,16 @@ html[dir="rtl"] {
     }
   }
 
-  .app-body {
-    margin-top: $navbar-height;
-  }
+  // .app-body {
+  //   margin-top: $navbar-height;
+  // }
 
   .sidebar {
     position: fixed;
     z-index: $zindex-sticky - 1;
     width: $sidebar-width;
     height: calc(100vh - #{$navbar-height});
+    margin-top: 65px;
   }
 
   .sidebar-minimizer {
